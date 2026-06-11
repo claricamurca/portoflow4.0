@@ -215,7 +215,7 @@ export function simularPolitica(
 
   return {
     politica, Wq: round1(Wq), W: round1(W), Lq: round1(Lq), L: round1(L),
-    rho: round2(rho), utilizacao: Math.round(rho * 100), atendidos,
+    rho: round2(rho), utilizacao: Math.round(rho), atendidos,
     atrasoCritico: Math.round(atrasosCriticos / Math.max(semanas, 1)),
     custoPonderado: round1(somaPesos ? somaPonderada / somaPesos : 0),
     esperaCritica: round1(nCrit ? somaEsperaCrit / nCrit : 0),
